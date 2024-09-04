@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="container">
+      <div class="display">0</div>
+      <div class="buttons">
+        <div class="rows">
+          <button id="ac" class="operator">AC</button>
+          <button id="back" class="operator">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+          <button id="%" class="operator">%</button>
+          <button id="/" class="operator">/</button>
+        </div>
+        <div class="rows">
+          <button id="7" class="number">7</button>
+          <button id="8" class="number">8</button>
+          <button id="9" class="number">9</button>
+          <button id="*" class="operator">*</button>
+        </div>
+        <div class="rows">
+          <button id="4" class="number">4</button>
+          <button id="5" class="number">5</button>
+          <button id="6" class="number">6</button>
+          <button id="-" class="operator">-</button>
+        </div>
+        <div class="rows">
+          <button id="1" class="number">1</button>
+          <button id="2" class="number">2</button>
+          <button id="3" class="number">3</button>
+          <button id="+" class="operator">+</button>
+        </div>
+        <div class="rows">
+          <button id="e" class="operator">e</button>
+          <button id="0" class="number">0</button>
+          <button id="." class="operator">.</button>
+          <button id="=" class="operator">=</button>
+        </div>
+      </div>
+    </div>
     <script src="./src/script.js"></script>
   </body>
 </html>
